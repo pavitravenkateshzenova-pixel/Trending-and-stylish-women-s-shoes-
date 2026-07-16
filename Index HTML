@@ -1,0 +1,99 @@
+Yes! Here's a simple, modern   women's shoes in a popup/grid style for my website.
+
+```html
+<html>
+
+...........
+
+ content="width=device-width, initial-scale=1.0">
+<women's fancy shoes >Women's Shoes</women's fancy shoes>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f8f8f8;
+    margin:0;
+    padding:40px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px
+
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
+
+.content{
+    padding:20px;
+}
+
+.price{ 
+    color:#e91e63;
+    font-size:22px;
+    font-weight:bold;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#e91e63;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:15px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#c2185b;
+}
+</style>
+
+</head>
+<womens and pretty girls only choses my shoe>
+
+<div class="container">
+<h2>Women's Shoes Collection</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Women's Sneakers">
+<div class="content">
+<h3>Premium Sneakers</h3>
+<p>Comfortable everyday shoes.</p>
+<div class="price">$79</div>
+<button>Shop Now</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600" alt="Women's Heels">
+<div class="content">
+<h3>Elegant Heels</h3>
+<p>Perfect for parties & events.</p>
+<div class="price">$99</div>
+<button
+```
