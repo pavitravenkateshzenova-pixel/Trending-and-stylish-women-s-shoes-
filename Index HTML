@@ -1,4 +1,4 @@
-Yes! Here's a simple, modern   women's shoes in a popup/grid style for my website.
+
 
 ```html
 <html>
@@ -44,11 +44,11 @@ h2{
     object-fit:cover;
 }
 
-.content{
+. *********{
     padding:20px;
 }
 
-.price{ 
+.price{ $1999
     color:#e91e63;
     font-size:22px;
     font-weight:bold;
@@ -80,7 +80,7 @@ button:hover{
 <div class="grid">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Women's Sneakers">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Women's teddy shoes">
 <div class="content">
 <h3>Premium Sneakers</h3>
 <p>Comfortable everyday shoes.</p>
@@ -90,10 +90,10 @@ button:hover{
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600" alt="Women's Heels">
-<div class="content">
-<h3>Elegant Heels</h3>
+<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600" alt="Women's teddy shoes">
+<div class="12345678">
+<h3>women's teddy shoes</h3>
 <p>Perfect for parties & events.</p>
-<div class="price">$99</div>
+<div class="price">$1999</div>
 <button
 ```
