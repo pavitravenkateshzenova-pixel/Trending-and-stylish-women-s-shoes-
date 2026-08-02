@@ -1,153 +1,77 @@
- 9901342008="width=device-width, initial-scale=1.0">
-<title>Teddy Shoes - Cute & Comfy Footwear</ women's fancy teddy shoes I>
-<teddy bear brand>
-/* ===== CSS START LINE 10 ===== */
-:root{
-  --pink: #FFB6D9;
-  --brown: #8B5E3C;
-  --cream: #FFF8F0;
-  --dark: #2C2C2C;
-  --white: #ffffff;
-  --gray: #f5f5f5;
-}
+... 9901342008="width=device-width, initial-scale=1.0">
+    <title>Teddy Shoes | Women's Fancy Shoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-*{
-  margin:0; 
-  padding:0; 
-  box-sizing:border-box;
-  font-family: 'Arial', sans-serif;
-}
+<header>
+    <div class="logo">TEDDY SHOES</div>
 
-html{
-  scroll-behavior: smooth;
-}
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-body{
-  background: var(--cream);
-  color: var(--dark);
-  line-height: 1.7;
-}
+<section class="hero">
+    <div>
+        <h1>Women's Fancy Teddy Shoes</h1>
+        <p>Soft • Comfortable • Stylish • Luxury</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+</section>
 
-header{
-  background: var(--white);
-  padding: 18px 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 3px 20px rgba(0,0,0,0.08);
-  position: sticky;
-  top:0;
-  z-index: 999;
-}
+<section class="products" id="products">
+    <h2>Our Collection</h2>
 
-.logo{
-  font-size: 30px;
-  font-weight: 900;
-  color: var(--brown);
-  letter-spacing: 1px;
-}
-.logo span{ 
-  color: var(--pink); 
-}
+    <div class="product-grid">
 
-nav{
-  display: flex;
-  gap: 30px;
-}
-nav a{
-  text-decoration: none;
-  color: var(--dark);
-  font-weight: 600;
-  font-size: 16px;
-  transition: 0.3s;
-}
-nav a:hover{ 
-  color: var(--pink); 
-  border-bottom: 2px solid var(--pink);
-}
+        <div class="card">
+            <img src="images/shoe1.jpg" alt="Black Teddy Shoe">
+            <h3>Classic Black Teddy</h3>
+            <p>Soft teddy knit women's casual shoe.</p>
+            <div class="price">₹1,999</div>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
 
-.cart-btn{
-  background: var(--pink);
-  border: none;
-  padding: 12px 24px;
-  border-radius: 30px;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 15px;
-  transition: 0.3s;
-}
-.cart-btn:hover{
-  background: var(--brown);
-  color: white;
-  transform: scale(1.05);
-}
+        <div class="card">
+            <img src="images/shoe2.jpg" alt="Brown Teddy Shoe">
+            <h3>Luxury Brown Teddy</h3>
+            <p>Premium everyday comfort.</p>
+            <div class="price">₹2,299</div>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
 
-/* HERO */
-.hero{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 100px 10%;
-  background: linear-gradient(135deg, var(--pink) 0%, #FFE0EC 100%);
-  min-height: 85vh;
-}
-.hero-text h1{
-  font-size: 56px;
-  color: var(--brown);
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-.hero-text p{
-  font-size: 19px;
-  margin-bottom: 35px;
-  max-width: 520px;
-  color: #444;
-}
-.btn{
-  background: var(--brown);
-  color: white;
-  padding: 16px 40px;
-  border: none;
-  border-radius: 35px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 700;
-  transition: 0.4s;
-}
-.btn:hover{
-  background: var(--white);
-  color: var(--brown);
-  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-}
-.hero-img img{
-  width: 480px;
-  border-radius: 30px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-}
+        <div class="card">
+            <img src="images/shoe3.jpg" alt="Cream Teddy Shoe">
+            <h3>Cream Teddy Comfort</h3>
+            <p>Elegant, lightweight and stylish.</p>
+            <div class="price">₹2,499</div>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
 
-/* PRODUCTS */
-.products{
-  padding: 100px 10%;
-  text-align: center;
-  background: var(--white);
-}
-.products h2{
-  font-size: 42px;
-  margin-bottom: 15px;
-  color: var(--brown);
-}
-.subtitle{
-  margin-bottom: 60px;
-  color: #666;
-  font-size: 17px;
-}
-.product-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-}
-.card{
-  background: var(--gray);
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 0 6
+    </div>
+</section>
+
+<section id="about" class="products">
+    <h2>About Teddy Shoes</h2>
+    <p style="text-align:center;">
+        Teddy Shoes creates soft, comfortable and fashionable shoes for women.
+        Every pair is designed with premium quality, elegant style and all-day comfort.
+    </p>
+</section>
+
+<section id="contact" class="products">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Email: info@teddyshoes.com</p>
+    <p style="text-align:center;">Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+    <p>© 2026 Teddy Shoes. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
